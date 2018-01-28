@@ -1,0 +1,7 @@
+<h3>List of current users</h3>
+<% @users.each do |user| %>
+	<div class='well'>	
+		<h3><%= user.username %></h3>
+		<p><%= user.email %></p>
+	</div>
+<% end %>
